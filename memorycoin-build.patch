@@ -1,0 +1,11 @@
+--- memorycoin/src/main.cpp~	2013-12-15 15:39:02.000000000 +0100
++++ memorycoin/src/main.cpp	2013-12-15 15:50:13.141136810 +0100
+@@ -21,6 +21,8 @@
+ #include <fstream>
+ #include <boost/algorithm/string.hpp>
+ 
++#include <sys/stat.h>
++#include <sys/types.h>
+ 
+ using namespace std;
+ using namespace boost;
